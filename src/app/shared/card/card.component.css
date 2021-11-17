@@ -1,12 +1,30 @@
+.card {
+    z-index: 0;
+    background-color: #ECEFF1;
+    padding-bottom: 20px;
+    margin-top: 15px;
+    margin-bottom: 90px;
+    border-radius: 10px
+}
+
+.top {
+    padding-top: 40px;
+    padding-left: 13% !important;
+    padding-right: 13% !important
+}
+
+
+
+
+
+
+  /* CSS CONTAINER */
+
   .content-container {
     padding-left: 95px;
   }
 
 
-  .button-standart{
-    color: #ffffff ;
-    background-color: #165C7D   ;
-   }
 
   /* CLASS BUTTON */
 
@@ -25,8 +43,7 @@
 
 .body-default{
     background-color:#E7EEF1;
-    z-index: -10;
-} 
+}
 
 /* CSS CARD */
 
@@ -40,4 +57,3 @@
     margin-left: 50px;
     
 }
-

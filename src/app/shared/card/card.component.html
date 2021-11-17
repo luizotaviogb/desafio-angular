@@ -1,0 +1,11 @@
+<div class="card card-default">
+    <div class="card-body">
+
+        <app-cardtittle [tittle]="this.tittles[0]" *ngIf="this.type == this.typeAccount "></app-cardtittle>
+        <app-cardbodyaccount [account]="data" *ngIf="this.type == this.typeAccount "></app-cardbodyaccount>
+
+        <app-cardtittle [tittle]="this.tittles[1]" *ngIf="this.type == this.typeSituation "></app-cardtittle>
+        <app-cardbodysituation [data]="data" *ngIf="this.type == this.typeSituation "></app-cardbodysituation>
+
+    </div>
+</div>

@@ -1,0 +1,12 @@
+<div class="row">
+
+    <div class="col-3">
+        <app-card [data]="this.value.person" [type]="'SITUATION'"></app-card>
+    </div>
+
+
+    <div class="col-3" *ngFor="let account of this.value.accounts">
+        <app-card [data]="account" [type]="'ACCOUNT'"></app-card>
+    </div>
+
+</div>
